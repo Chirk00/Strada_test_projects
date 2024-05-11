@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+}
+
 :root {
   --container-gap: 135px;
   --header-container-padding: 55px;
@@ -35,7 +45,7 @@ body {
   padding-bottom: var(--header-container-padding);
 }
 
-.header__list {
+.nav__list {
   display: flex;
   gap: 40px;
 }

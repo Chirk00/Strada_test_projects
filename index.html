@@ -14,16 +14,16 @@
   <header class="header">
     <div class="header__container container">
       <a href="#" class="header__logo" lang="en">@nickname</a>
-      <nav class="header__nav" aria-label="Главная навигация">
-        <ul class="header__list">
-          <li class="header__item">
-            <a href="#" class="header__link">Мои работы</a>
+      <nav class="nav" aria-label="Главная навигация">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Мои работы</a>
           </li>
-          <li class="header__item">
-            <a href="#" class="header__link">Обо мне</a>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Обо мне</a>
           </li>
-          <li class="header__item">
-            <a href="#" class="header__link">Контакты</a>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -120,6 +120,16 @@
         <h2 class="join__title">
           Оставьте заявку
         </h2>
+        <form class="form" action="mailto:imalahit@gmail.com" method="get" enctype="text/plain">
+          <label class="sr-only" for="name">Ваше имя</label>
+          <input class="form__text" type="text" name="name" id="name" placeholder="Имя" required>
+          <label class="sr-only" for="email">Ваша почта</label>
+          <input class="form__text" type="email" name="mail" id="email" placeholder="Почта" required>
+          <label class="sr-only" for="tel">Ваш телефон</label>
+          <input class="form__text" type="text" name="tel" id="tel" placeholder="Телефон">
+          <button class="btn form__btn" type="reset">Очистить</button>
+          <button class="btn form__btn" type="submit">Отправить</button>
+        </form>
       </div>
     </section>
 
@@ -128,6 +138,32 @@
         <h2 class="contacts__title">
           Контакты
         </h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <h3 class="contacts__desc">
+              GitHub
+            </h3>
+            <a href="https://github.com/Chirk00" class="contacts__link">
+              Ссылка
+            </a>
+          </li>
+          <li class="contacts__item">
+            <h3 class="contacts__desc">
+              Telegram
+            </h3>
+            <a href="#" class="contacts__link">
+              Ссылка
+            </a>
+          </li>
+          <li class="contacts__item">
+            <h3 class="contacts__desc">
+              Телефон
+            </h3>
+            <a href="tel:79138977613" class="contacts__link">
+              +7 (913) 897-76-13
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
@@ -135,16 +171,16 @@
   <footer class="footer">
     <div class="footer__container container">
       <a href="#" class="header__logo" lang="en">@nickname</a>
-      <nav class="header__nav" aria-label="Главная навигация">
-        <ul class="header__list">
-          <li class="header__item">
-            <a href="#" class="header__link">Мои работы</a>
+      <nav class="nav" aria-label="Главная навигация">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Мои работы</a>
           </li>
-          <li class="header__item">
-            <a href="#" class="header__link">Обо мне</a>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Обо мне</a>
           </li>
-          <li class="header__item">
-            <a href="#" class="header__link">Контакты</a>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Контакты</a>
           </li>
         </ul>
       </nav>
