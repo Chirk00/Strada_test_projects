@@ -13,17 +13,17 @@
 <body>
   <header class="header">
     <div class="header__container container">
-      <a href="#" class="header__logo" lang="en">@nickname</a>
+      <a href="https://github.com/Chirk00" class="header__logo" lang="en" target="_blank">@Chirk00</a>
       <nav class="nav" aria-label="Главная навигация">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="#" class="nav__link">Мои работы</a>
+            <a href="#projects" class="nav__link">Мои работы</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Обо мне</a>
+            <a href="#join" class="nav__link">Обо мне</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Контакты</a>
+            <a href="#contacts" class="nav__link">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -37,17 +37,23 @@
         <ul class="hero__list">
           <li class="hero__item">
             <h1 class="hero__title">
-              Я - фронтендер
+              Я&nbsp;&mdash;&nbsp;фронтендер
             </h1>
             <p class="hero__desc">
               Какая-то очень интересная информация обо мне. Очень интересная информация...
             </p>
             <button class="hero__btn btn">
-              связаться со мной
+              связаться со&nbsp;мной
             </button>
           </li>
           <li class="hero__item">
-            <img src="#" alt="Фотография фронтенд разработчика" class="header__img">
+            <div class="hero__wrap">
+              <img
+                src="./img/hero.jpg"
+                width="400" height="400"
+                alt="Фотография фронтенд разработчика"
+                class="hero__img">
+            </div>
           </li>
         </ul>
       </div>
@@ -78,7 +84,7 @@
       </div>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
       <div class="projects__container container">
         <h2 class="projects__title">
           Мои проекты
@@ -115,7 +121,7 @@
       </div>
     </section>
 
-    <section class="join">
+    <section class="join" id="join">
       <div class="join__container container">
         <h2 class="join__title">
           Оставьте заявку
@@ -133,7 +139,7 @@
       </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="contacts__container container">
         <h2 class="contacts__title">
           Контакты
